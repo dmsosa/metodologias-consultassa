@@ -10,9 +10,9 @@ import "./assets/css/styles.css";
 import "./assets/css/cards.css";
 import "./assets/css/control.css";
 import ContactForm from "./components/Form/ContactForm/ContactForm";
-import BuyRoutes from "./routes/BuyRoutes/BuyRoutes";
-import Home from "./routes/BuyRoutes/Home";
-import Buy from "./routes/BuyRoutes/Buy";
+import BuyRoutes from "./routes/CheckoutRoutes/CheckoutRoutes";
+import Home from "./routes/Home";
+import Buy from "./routes/CheckoutRoutes/Buy";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

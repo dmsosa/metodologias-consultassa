@@ -1,7 +1,7 @@
-import BannerContainer from "../../components/BannerContainer";
-import BuyPreview from "../../components/Form/BuyForm/BuyPreview";
-import Index from "../../components/Home/Index";
-import ItemsArray from "../../components/ItemsArray/ItemsArray";
+import BannerContainer from "../components/BannerContainer";
+import BuyPreview from "../components/Form/BuyForm/BuyPreview";
+import Index from "../components/Home/Index";
+import ItemsArray from "../components/ItemsArray/ItemsArray";
 import { Container } from "react-bootstrap";
 
 function Home() {
