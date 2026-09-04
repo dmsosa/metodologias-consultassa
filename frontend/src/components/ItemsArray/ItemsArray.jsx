@@ -13,6 +13,7 @@ function ItemsArray() {
 
 	const { control } = useFormContext();
 	const { fields, append, remove, update } = useFieldArray({ control, name: "items" });
+
 	const onItemAdd = (e, item) => {
 		e.preventDefault();
 		const existingIndex = fields?.findIndex((f) => f.itemId === item.itemId);
